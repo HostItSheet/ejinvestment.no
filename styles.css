@@ -74,25 +74,29 @@ a {
 .wordmark {
   display: inline-flex;
   align-items: center;
-  gap: 14px;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  gap: 18px;
+  color: rgba(18, 20, 23, 0.34);
+  font-size: 16px;
+  font-weight: 520;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
+  transition:
+    color 180ms ease,
+    opacity 180ms ease;
+}
+
+.wordmark:hover {
+  color: rgba(18, 20, 23, 0.62);
 }
 
 .mark {
-  display: grid;
-  width: 36px;
-  height: 36px;
-  place-items: center;
-  border-radius: 12px;
-  color: #fff;
-  background: linear-gradient(145deg, #141a23, #344253);
+  color: rgba(18, 20, 23, 0.36);
   font-family: Georgia, serif;
-  font-size: 15px;
-  letter-spacing: -0.06em;
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.16);
+  font-size: 31px;
+  font-weight: 400;
+  letter-spacing: -0.16em;
+  line-height: 1;
+  text-transform: none;
 }
 
 .nav {
@@ -201,9 +205,6 @@ h1 {
 }
 
 .apps {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 22px;
   margin: 26px auto clamp(72px, 9vw, 112px);
   padding: clamp(20px, 3vw, 30px);
   border: 1px solid var(--line);
@@ -211,6 +212,38 @@ h1 {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.58));
   box-shadow: var(--shadow);
   backdrop-filter: blur(26px);
+}
+
+.app-group {
+  display: grid;
+  gap: 18px;
+}
+
+.group-label {
+  margin: 0;
+  color: var(--subtle);
+  font-size: 13px;
+  font-weight: 760;
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.app-divider {
+  height: 1px;
+  margin: clamp(28px, 4vw, 44px) auto;
+  background: linear-gradient(90deg, transparent, rgba(15, 23, 42, 0.16), transparent);
+}
+
+.collaboration-grid {
+  grid-template-columns: minmax(220px, 340px);
+  justify-content: center;
 }
 
 .app-card {
@@ -319,10 +352,6 @@ h1 {
   color: #70827b;
 }
 
-.prototypes {
-  color: #7b8490;
-}
-
 .site-footer {
   display: flex;
   flex-wrap: wrap;
@@ -377,8 +406,12 @@ h1 {
     gap: 14px 18px;
   }
 
-  .apps {
+  .app-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .collaboration-grid {
+    grid-template-columns: minmax(220px, 340px);
   }
 }
 
@@ -396,9 +429,13 @@ h1 {
   }
 
   .apps {
-    grid-template-columns: 1fr;
     border-radius: 30px;
     padding: 14px;
+  }
+
+  .app-grid,
+  .collaboration-grid {
+    grid-template-columns: 1fr;
   }
 
   .app-card {
