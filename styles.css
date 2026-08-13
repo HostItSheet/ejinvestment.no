@@ -75,10 +75,10 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 18px;
-  color: rgba(18, 20, 23, 0.34);
+  color: rgba(18, 20, 23, 0.16);
   font-size: 16px;
-  font-weight: 520;
-  letter-spacing: 0.12em;
+  font-weight: 480;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   transition:
     color 180ms ease,
@@ -86,11 +86,11 @@ a {
 }
 
 .wordmark:hover {
-  color: rgba(18, 20, 23, 0.62);
+  color: rgba(18, 20, 23, 0.38);
 }
 
 .mark {
-  color: rgba(18, 20, 23, 0.36);
+  color: rgba(18, 20, 23, 0.18);
   font-family: Georgia, serif;
   font-size: 31px;
   font-weight: 400;
@@ -186,6 +186,10 @@ h1 {
 
 .quiet-hero {
   padding: clamp(44px, 6vw, 74px) 0 18px;
+}
+
+.compact-hero {
+  padding: clamp(24px, 5vw, 54px) 0 0;
 }
 
 .tagline {
