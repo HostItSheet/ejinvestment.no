@@ -4,7 +4,7 @@ Minimal company/app portfolio site for `EJ INVESTMENT AS`.
 
 ## Purpose
 
-- Provide a public, functional organization website for Apple Developer verification.
+- Provide a public, functional organization website for app platform verification.
 - Keep the company identity legally clear without using a personal name on the front page.
 - Link app icons to the apps' own pages.
 
@@ -12,30 +12,22 @@ Minimal company/app portfolio site for `EJ INVESTMENT AS`.
 
 - HabitGame: `https://habitgame.app`
 - BabyCry: `https://copro.ai/concepts/baby-zen/app/`
-- MarketTycoon, MegaMuseum, Jarvis Home, Prototypes: displayed as work in progress until final URLs and icons exist.
-
-## Domain Recommendation
-
-Use `ejinvestment.no` as the primary domain if available at checkout.
-
-Recommended registrar for lowest long-term `.no` cost: Gigahost. Their public pricing says `.no` registration and renewal are NOK 85/year ex. VAT.
-
-Runner-up: Webhuset, because it is also Norwegian-owned and cheap over time, with public pricing showing `.no` renewal at NOK 99/year.
+- WalletHabit, AlphaStocks, MarketTycoon, and MegaMuseum: displayed as under construction until final URLs and icons exist.
 
 ## Required DNS/Email Follow-Up
 
-After buying the domain, configure role-based addresses:
+The current visible contact address is:
 
-- `contact@ejinvestment.no`
-- `support@ejinvestment.no`
-- `privacy@ejinvestment.no`
+- `hello@habitgame.app`
 
-If email hosting is not ready immediately, forward these addresses to the inbox you actually monitor.
+Later, configure role-based `ejinvestment.no` aliases such as support/privacy/contact when email hosting is ready.
 
 ## Files
 
 - `index.html`: public company homepage.
-- `privacy.html`: minimal privacy page.
-- `support.html`: minimal support page.
+- `index.no.html`: Norwegian homepage.
+- `privacy.html` and `privacy.no.html`: company privacy pages.
+- `privacy/babycry.html` and `privacy/babycry.no.html`: BabyCry app privacy pages.
+- `support.html` and `support.no.html`: support pages.
 - `assets/icons/habitgame.png`: current HabitGame icon from the local app project.
 - `assets/icons/babycry.png`: current BabyCry icon from the Capacitor app project.
