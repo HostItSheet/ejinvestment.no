@@ -295,8 +295,17 @@ h1 {
   letter-spacing: -0.035em;
 }
 
-.app-meta {
+.app-desc {
+  max-width: 220px;
   margin-top: 8px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.app-meta {
+  margin-top: 10px;
   color: var(--blue);
   font-size: 14px;
 }
@@ -344,12 +353,16 @@ h1 {
   color: #637383;
 }
 
-.museum {
-  color: #68727c;
+.finance {
+  color: #73826e;
 }
 
-.jarvis {
-  color: #70827b;
+.stocks {
+  color: #6f7c90;
+}
+
+.museum {
+  color: #68727c;
 }
 
 .site-footer {
@@ -392,6 +405,17 @@ h1 {
 
 .legal-page a {
   color: var(--blue);
+}
+
+.legal-page ul {
+  margin: 12px 0 0;
+  padding-left: 22px;
+}
+
+.policy-date {
+  margin-top: 42px;
+  color: var(--subtle);
+  font-size: 14px;
 }
 
 @media (max-width: 860px) {
