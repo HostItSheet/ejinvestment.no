@@ -333,32 +333,6 @@ h1 {
   padding: clamp(24px, 5vw, 54px) 0 0;
 }
 
-.company-intro {
-  display: grid;
-  justify-items: center;
-  padding: clamp(64px, 9vw, 112px) 0 clamp(34px, 5vw, 58px);
-  text-align: center;
-}
-
-.company-intro h1 {
-  max-width: 860px;
-}
-
-.company-facts {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px 22px;
-  max-width: 860px;
-  margin-top: 28px;
-  color: var(--muted);
-  font-size: 14px;
-}
-
-.company-facts a {
-  color: var(--blue);
-}
-
 .tagline {
   max-width: 540px;
   margin: 0;
