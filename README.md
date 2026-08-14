@@ -1,6 +1,6 @@
-# EJ Investment AS Site
+# EJ Investments AS Site
 
-Minimal company/app portfolio site for `EJ INVESTMENT AS`.
+Company/app portfolio site for `EJ INVESTMENTS AS`.
 
 ## Purpose
 
