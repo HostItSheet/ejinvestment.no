@@ -11,7 +11,7 @@ Company/app portfolio site for `EJ INVESTMENTS AS`.
 ## Current Links
 
 - HabitGame: `https://habitgame.app`
-- BabyCry: `https://copro.ai/concepts/baby-zen/app/`
+- Block Orbit (working title): collaborative puzzle game with Jan Magnus; no public game link yet.
 - WalletHabit, AlphaStocks, MarketTycoon, and MegaMuseum: displayed as under construction until final URLs and icons exist.
 
 ## Required DNS/Email Follow-Up
@@ -30,4 +30,4 @@ Later, configure role-based `ejinvestment.no` aliases such as support/privacy/co
 - `privacy/babycry.html` and `privacy/babycry.no.html`: BabyCry app privacy pages.
 - `support.html` and `support.no.html`: support pages.
 - `assets/icons/habitgame.png`: current HabitGame icon from the local app project.
-- `assets/icons/babycry.png`: current BabyCry icon from the Capacitor app project.
+- `assets/icons/babycry.png`: legacy asset retained for existing references; not shown on the homepage.
